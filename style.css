@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 320px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-content {
+  flex: 1; 
+}
+
+#data-source {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  opacity: 0.7;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255,255,255,0.15);  */
+}
+
+
+.sidebar {
+  overflow-y: scroll;
+  scrollbar-width: none;    
+}
+
+.sidebar::-webkit-scrollbar { 
+  display: none;
+}
+
+
+#map {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.main-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff3e3e;
+  margin: 10px 0;
+  text-shadow: 0 0 10px rgba(255,62,62,0.3);
+}
+
+.label {
+  color: #666;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+.chart-wrapper {
+  height: 250px;
+  margin-top: 20px;
+  background: #111;
+  border: 1px solid #222;
+  padding: 10px;
+}
+
+#context-data {
+  margin-top: 12px;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.intro-text p {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+  padding-bottom: 5px
+}
+
+h2 {
+  border-bottom: 2px solid #ff3e3e;
+  padding-bottom: 5px;
+  margin: 0 0 15px 0;
+}
+
+h3 {
+  padding-bottom: 0px;
+  margin: 0 0 15px 0;
+}
+
+#legend {
+  margin-top: 1rem;
+  font-size: 0.90rem;
+  line-height: 1.3;
+  color: #aaa;
+
+}
+
+#legend i {
+  margin-right: 10px;   
+}
+
+#data-source {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  opacity: 0.75;
+}
+
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.legend-color {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #999;
+  margin-right: 6px;
+}
+
+#introModal * {
+  color: #000 !important;
+}
+
+#introModal button {
+  background: #c62828;   /* change this to any colour */
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
