@@ -132,7 +132,7 @@ h3 {
 }
 
 #introModal * {
-  color: #000 !important;
+  color: #000 ;
 }
 
 #introModal button {
@@ -143,3 +143,8 @@ h3 {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.sidebar {
+  background: #000
+}
+
